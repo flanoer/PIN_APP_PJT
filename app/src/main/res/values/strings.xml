@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">KeyPadApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="numBtn0">0</string>
+    <string name="numBtn1">1</string>
+    <string name="numBtn2">2</string>
+    <string name="numBtn3">3</string>
+    <string name="numBtn4">4</string>
+    <string name="numBtn5">5</string>
+    <string name="numBtn6">6</string>
+    <string name="numBtn7">7</string>
+    <string name="numBtn8">8</string>
+    <string name="numBtn9">9</string>
+    <string name="okBtn">OK</string>
+    <string name="shflBtn">SHUFFLE</string>
+    <string name="delBtn">DELETE</string>
+</resources>
