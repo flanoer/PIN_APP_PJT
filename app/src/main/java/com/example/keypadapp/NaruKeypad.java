@@ -92,6 +92,7 @@ public class NaruKeypad extends LinearLayout implements View.OnClickListener {
 
     //
     private NetworkTask networkTask;
+    Callback callback;
 
     // 키패드 생성자
     public NaruKeypad(Context context) {
@@ -114,7 +115,7 @@ public class NaruKeypad extends LinearLayout implements View.OnClickListener {
         Log.i(TAG,"NaruKeypad init method invoke");
 
         try {
-            Callback callback = new Callback() {
+            callback = new Callback() {
                 @Override
                 public void callback(Object object) {
                     try {
@@ -307,7 +308,7 @@ public class NaruKeypad extends LinearLayout implements View.OnClickListener {
                 params.put("method","POST");
 
                 // 콜백 생성
-                Callback callback = new Callback() {
+                callback = new Callback() {
                     @Override
                     public void callback(Object object) {
                         try {
